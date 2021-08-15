@@ -1,0 +1,16 @@
+{
+  "name": "BooksApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
+  },
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
+  },
+  "repository": "git@github.com:Mucha99/BooksApi.git",
+  "author": "Bartek Mucha <bartekmucha43@gmail.com>"
+}
